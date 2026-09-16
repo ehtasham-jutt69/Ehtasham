@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Muhammad Ehtasham – DevOps &amp; MERN Stack Developer</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Dancing+Script:wght@700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- ========== PRELOADER ========== -->
+  <div id="preloader">
+    <div class="preloader-inner">
+      <span class="logo-script">Ehtasham</span>
+      <div class="preloader-bar"><span></span></div>
+    </div>
+  </div>
+
+  <!-- ========== HEADER / NAVBAR ========== -->
+  <header id="header">
+    <div class="container nav-container">
+      <a href="#home" class="logo">
+        <span class="logo-script">Ehtasham</span>
+      </a>
+      <nav id="navbar">
+        <ul class="nav-links">
+          <li><a href="#home"        class="nav-link active">Home</a></li>
+          <li><a href="#about"       class="nav-link">About</a></li>
+          <li><a href="#services"    class="nav-link">Services</a></li>
+          <li><a href="#portfolio"   class="nav-link">Projects</a></li>
+          <li><a href="#experience"  class="nav-link">Experience</a></li>
+          <li><a href="#blog"        class="nav-link">Blog</a></li>
+          <li><a href="#contact"     class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+      <a href="#contact" class="btn btn-primary nav-cta">Hire Me <i class="fa-solid fa-arrow-right"></i></a>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ========== HERO ========== -->
+  <section id="home" class="hero-section">
+    <div class="hero-bg-glow"></div>
+    <div class="container hero-container">
+
+      <div class="hero-content">
+        <p class="hero-greeting">Hello, I'm Ehtasham <span class="wave">👋</span></p>
+        <h1 class="hero-title">
+          I <span class="accent">Build</span> &amp; Automate<br/>
+          <span class="hero-highlight">Cloud Infrastructure</span>
+        </h1>
+        <p class="hero-sub">
+          A passionate DevOps Engineer &amp; MERN Stack Developer from Islamabad, Pakistan.
+          I build containerized applications, automate CI/CD pipelines, and craft
+          modern web experiences with Node.js, React, and Docker.
+        </p>
+        <div class="hero-btns">
+          <a href="Ehtasham-resume-v4.pdf" download class="btn btn-primary">Download CV <i class="fa-solid fa-download"></i></a>
+          <a href="#portfolio" class="btn btn-outline">View Projects <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        <div class="hero-social">
+          <p class="follow-label">Find Me On:</p>
+          <div class="social-icons">
+            <a href="https://github.com/ehtasham-jutt69" target="_blank" rel="noopener" class="social-link" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/muhammad-ehtasham-is-here45" target="_blank" rel="noopener" class="social-link" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="mailto:ahtashamkingking5@gmail.com" class="social-link" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+            <a href="tel:+923157695348" class="social-link" aria-label="Phone"><i class="fa-solid fa-phone"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-image-wrap">
+        <!-- Golden brush stroke behind the person -->
+        <img src="images/background_transparent.png" alt="" class="hero-brush-img" aria-hidden="true" />
+        <!-- Person photo (transparent background PNG) -->
+        <img src="images/Ehtasham_new.png" alt="Muhammad Ehtasham" class="hero-img" id="hero-img" />
+        <div class="hero-badge">
+          <span class="badge-number">3+</span>
+          <span class="badge-text">Years<br/>Coding</span>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Tech Stack Bar -->
+    <div class="hero-categories">
+      <div class="categories-inner">
+        <div class="cat-item"><i class="fa-brands fa-docker"></i><span>Docker</span><small>Containerization</small></div>
+        <div class="cat-item"><i class="fa-brands fa-linux"></i><span>Linux</span><small>Administration</small></div>
+        <div class="cat-item"><i class="fa-solid fa-infinity"></i><span>CI/CD</span><small>GitHub Actions</small></div>
+        <div class="cat-item"><i class="fa-brands fa-aws"></i><span>AWS</span><small>Cloud Platform</small></div>
+        <div class="cat-item"><i class="fa-brands fa-react"></i><span>React</span><small>Frontend</small></div>
+        <div class="cat-item"><i class="fa-brands fa-node-js"></i><span>Node.js</span><small>Backend</small></div>
+        <div class="cat-item"><i class="fa-solid fa-database"></i><span>MongoDB</span><small>Database</small></div>
+        <div class="cat-item"><i class="fa-brands fa-git-alt"></i><span>Git</span><small>Version Control</small></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT ========== -->
+  <section id="about" class="section about-section">
+    <div class="container about-container">
+
+      <div class="about-left">
+        <div class="section-tag">ABOUT ME</div>
+        <h2 class="section-title">
+          Engineering With <span class="accent">Purpose</span><br/>
+          While Exploring The Cloud.
+        </h2>
+        <p class="about-desc">
+          I'm Muhammad Ehtasham, a Computer Science undergraduate at Quaid-i-Azam University, Islamabad.
+          I'm passionate about DevOps, Cloud Computing, and Infrastructure Automation. I have hands-on
+          experience building containerized applications, Linux system utilities, and CI/CD pipelines.
+          I love turning complex infrastructure challenges into clean, automated solutions.
+        </p>
+
+        <!-- Skill Bars -->
+        <div class="skill-bar-wrap">
+          <div class="skill-bar">
+            <div class="skill-label"><span>Docker &amp; DevOps</span><span>90%</span></div>
+            <div class="skill-track"><div class="skill-fill" data-width="90"></div></div>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-label"><span>Linux Administration</span><span>85%</span></div>
+            <div class="skill-track"><div class="skill-fill" data-width="85"></div></div>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-label"><span>MERN Stack</span><span>80%</span></div>
+            <div class="skill-track"><div class="skill-fill" data-width="80"></div></div>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-label"><span>C++ / Python</span><span>75%</span></div>
+            <div class="skill-track"><div class="skill-fill" data-width="75"></div></div>
+          </div>
+        </div>
+
+        <div class="about-signature">Ehtasham</div>
+        <a href="#contact" class="btn btn-primary">Let's Connect <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+
+      <div class="about-right">
+        <div class="about-info-card">
+          <div class="info-row">
+            <div class="info-item">
+              <span class="info-label"><i class="fa-solid fa-user"></i> Name:</span>
+              <span class="info-value">Muhammad Ehtasham</span>
+            </div>
+            <div class="info-item">
+              <span class="info-label"><i class="fa-solid fa-envelope"></i> Email:</span>
+              <span class="info-value">ahtashamkingking5@gmail.com</span>
+            </div>
+          </div>
+          <div class="info-row">
+            <div class="info-item">
+              <span class="info-label"><i class="fa-solid fa-location-dot"></i> From:</span>
+              <span class="info-value">Islamabad, Pakistan</span>
+            </div>
+            <div class="info-item">
+              <span class="info-label"><i class="fa-solid fa-phone"></i> Phone:</span>
+              <span class="info-value">+92-315-7695348</span>
+            </div>
+          </div>
+          <div class="info-row">
+            <div class="info-item">
+              <span class="info-label"><i class="fa-solid fa-graduation-cap"></i> Degree:</span>
+              <span class="info-value">BS Computer Science</span>
+            </div>
+            <div class="info-item">
+              <span class="info-label"><i class="fa-solid fa-circle-check"></i> Availability:</span>
+              <span class="info-value availability">Open to Work</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="stats-grid">
+          <div class="stat-card">
+            <span class="stat-number" data-count="3">0</span><span class="stat-plus">+</span>
+            <span class="stat-label">Years Coding</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number" data-count="4">0</span><span class="stat-plus">+</span>
+            <span class="stat-label">Projects</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number" data-count="3">0</span><span class="stat-plus">+</span>
+            <span class="stat-label">Internships</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number" data-count="5">0</span><span class="stat-plus">+</span>
+            <span class="stat-label">Certifications</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========== SERVICES ========== -->
+  <section id="services" class="section services-section">
+    <div class="container">
+      <div class="section-header">
+        <div>
+          <div class="section-tag">WHAT I DO</div>
+          <h2 class="section-title">Skills &amp; Services<br/><span class="accent">I Offer</span></h2>
+        </div>
+        <a href="#contact" class="btn btn-outline">Get In Touch <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon"><i class="fa-brands fa-docker"></i></div>
+          <h3>DevOps &amp; Containerization</h3>
+          <p>I build and manage containerized applications using Docker and Docker Compose, creating production-ready deployment architectures.</p>
+          <a href="#contact" class="service-link">Hire Me <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        <div class="service-card">
+          <div class="service-icon"><i class="fa-solid fa-infinity"></i></div>
+          <h3>CI/CD Pipelines</h3>
+          <p>I design and implement automated CI/CD pipelines using GitHub Actions with pull request validation, branch workflows, and auto-deployment.</p>
+          <a href="#contact" class="service-link">Hire Me <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        <div class="service-card">
+          <div class="service-icon"><i class="fa-brands fa-linux"></i></div>
+          <h3>Linux Administration</h3>
+          <p>I manage Linux systems (Ubuntu/WSL), write shell scripts, configure Nginx reverse proxies, and monitor system performance via /proc.</p>
+          <a href="#contact" class="service-link">Hire Me <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        <div class="service-card">
+          <div class="service-icon"><i class="fa-brands fa-node-js"></i></div>
+          <h3>MERN Stack Development</h3>
+          <p>I build complete web applications using the MERN stack (MongoDB, Express.js, React, Node.js) with REST APIs and responsive frontends.</p>
+          <a href="#contact" class="service-link">Hire Me <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        <div class="service-card">
+          <div class="service-icon"><i class="fa-brands fa-aws"></i></div>
+          <h3>Cloud &amp; Infrastructure</h3>
+          <p>I work with AWS fundamentals and Terraform for cloud infrastructure, focusing on scalable, automated cloud-native deployments.</p>
+          <a href="#contact" class="service-link">Hire Me <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        <div class="service-card">
+          <div class="service-icon"><i class="fa-solid fa-robot"></i></div>
+          <h3>AI-Powered Automation</h3>
+          <p>I develop AI-powered applications and automation solutions, leveraging generative AI tools and integrating them with software workflows.</p>
+          <a href="#contact" class="service-link">Hire Me <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PORTFOLIO / PROJECTS ========== -->
+  <section id="portfolio" class="section portfolio-section">
+    <div class="container">
+      <div class="section-header">
+        <div>
+          <div class="section-tag">MY PROJECTS</div>
+          <h2 class="section-title">Featured <span class="accent">Works</span></h2>
+        </div>
+        <a href="https://github.com/ehtasham-jutt69" target="_blank" rel="noopener" class="btn btn-outline">View GitHub <i class="fa-brands fa-github"></i></a>
+      </div>
+
+      <!-- Filter Tabs -->
+      <div class="portfolio-filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="devops">DevOps</button>
+        <button class="filter-btn" data-filter="web">Web Dev</button>
+        <button class="filter-btn" data-filter="systems">Systems</button>
+      </div>
+
+      <div class="portfolio-grid">
+
+        <div class="portfolio-card" data-category="systems">
+          <div class="portfolio-img-wrap">
+            <div class="portfolio-img-placeholder p-color-1">
+              <i class="fa-solid fa-gauge-high"></i>
+            </div>
+            <div class="portfolio-overlay">
+              <a href="https://github.com/ehtasham-jutt69" target="_blank" rel="noopener" class="portfolio-zoom"><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <h4>SysWatch – Linux System Monitor</h4>
+            <span class="portfolio-cat">Systems · C++ · NCurses · CMake</span>
+          </div>
+        </div>
+
+        <div class="portfolio-card" data-category="devops">
+          <div class="portfolio-img-wrap">
+            <div class="portfolio-img-placeholder p-color-2">
+              <i class="fa-brands fa-docker"></i>
+            </div>
+            <div class="portfolio-overlay">
+              <a href="https://github.com/ehtasham-jutt69" target="_blank" rel="noopener" class="portfolio-zoom"><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <h4>Dockerized MERN Application</h4>
+            <span class="portfolio-cat">DevOps · Docker · Docker Compose</span>
+          </div>
+        </div>
+
+        <div class="portfolio-card" data-category="devops">
+          <div class="portfolio-img-wrap">
+            <div class="portfolio-img-placeholder p-color-3">
+              <i class="fa-solid fa-infinity"></i>
+            </div>
+            <div class="portfolio-overlay">
+              <a href="https://github.com/ehtasham-jutt69" target="_blank" rel="noopener" class="portfolio-zoom"><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <h4>CI/CD Pipeline – GitHub Actions</h4>
+            <span class="portfolio-cat">DevOps · GitHub Actions · Automation</span>
+          </div>
+        </div>
+
+        <div class="portfolio-card" data-category="devops">
+          <div class="portfolio-img-wrap">
+            <div class="portfolio-img-placeholder p-color-4">
+              <i class="fa-solid fa-server"></i>
+            </div>
+            <div class="portfolio-overlay">
+              <a href="https://github.com/ehtasham-jutt69" target="_blank" rel="noopener" class="portfolio-zoom"><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <h4>Nginx Reverse Proxy with Docker</h4>
+            <span class="portfolio-cat">DevOps · Nginx · Docker · Networking</span>
+          </div>
+        </div>
+
+        <div class="portfolio-card" data-category="web">
+          <div class="portfolio-img-wrap">
+            <div class="portfolio-img-placeholder p-color-5">
+              <i class="fa-solid fa-globe"></i>
+            </div>
+            <div class="portfolio-overlay">
+              <a href="https://github.com/ehtasham-jutt69" target="_blank" rel="noopener" class="portfolio-zoom"><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <h4>Online Quran Academy Platform</h4>
+            <span class="portfolio-cat">Web · Full-Stack · Education</span>
+          </div>
+        </div>
+
+        <div class="portfolio-card" data-category="web">
+          <div class="portfolio-img-wrap">
+            <div class="portfolio-img-placeholder p-color-6">
+              <i class="fa-solid fa-code"></i>
+            </div>
+            <div class="portfolio-overlay">
+              <a href="https://github.com/ehtasham-jutt69" target="_blank" rel="noopener" class="portfolio-zoom"><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <h4>MERN Stack Web Applications</h4>
+            <span class="portfolio-cat">Web · MongoDB · Express · React · Node</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== EXPERIENCE ========== -->
+  <section id="experience" class="section experience-section">
+    <div class="container">
+      <div class="section-tag center">JOURNEY</div>
+      <h2 class="section-title center">Experience &amp; <span class="accent">Education</span></h2>
+
+      <div class="exp-grid">
+
+        <!-- Experience Column -->
+        <div class="exp-column">
+          <h3 class="exp-col-title"><i class="fa-solid fa-briefcase"></i> Work Experience</h3>
+
+          <div class="exp-card">
+            <div class="exp-dot"></div>
+            <div class="exp-content">
+              <span class="exp-date">2025</span>
+              <h4>AI Intern</h4>
+              <p class="exp-company"><i class="fa-solid fa-building"></i> Software Productivity Strategists (SPS), NUST — Remote</p>
+              <ul class="exp-points">
+                <li>Developed AI-powered applications and automation solutions.</li>
+                <li>Used Git for version control and participated in testing, debugging, and deployment.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="exp-card">
+            <div class="exp-dot"></div>
+            <div class="exp-content">
+              <span class="exp-date">Summer 2025</span>
+              <h4>MERN Stack Intern</h4>
+              <p class="exp-company"><i class="fa-solid fa-building"></i> Kivro Solutions — Remote</p>
+              <ul class="exp-points">
+                <li>Built full-stack web applications using MongoDB, Express.js, React, and Node.js.</li>
+                <li>Developed REST APIs and collaborated using Git and GitHub.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="exp-card">
+            <div class="exp-dot"></div>
+            <div class="exp-content">
+              <span class="exp-date">Feb 2025 – May 2025</span>
+              <h4>Lab Assistant</h4>
+              <p class="exp-company"><i class="fa-solid fa-university"></i> Dept. of CS, Quaid-i-Azam University</p>
+              <ul class="exp-points">
+                <li>Maintained Linux laboratory systems and provided technical support.</li>
+                <li>Assisted students with programming and software installation.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="exp-card">
+            <div class="exp-dot"></div>
+            <div class="exp-content">
+              <span class="exp-date">2025 – Present</span>
+              <h4>Founder</h4>
+              <p class="exp-company"><i class="fa-solid fa-mosque"></i> Online Quran Academy</p>
+              <ul class="exp-points">
+                <li>Built and managed an online education platform and website.</li>
+                <li>Managed operations, student onboarding, and digital growth.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Education & Certifications Column -->
+        <div class="exp-column">
+          <h3 class="exp-col-title"><i class="fa-solid fa-graduation-cap"></i> Education</h3>
+
+          <div class="exp-card">
+            <div class="exp-dot"></div>
+            <div class="exp-content">
+              <span class="exp-date">2022 – 2026</span>
+              <h4>BS Computer Science</h4>
+              <p class="exp-company"><i class="fa-solid fa-university"></i> Quaid-i-Azam University, Islamabad</p>
+              <ul class="exp-points">
+                <li>Operating Systems, Computer Networks, Data Structures &amp; Algorithms</li>
+                <li>Software Engineering, Artificial Intelligence, Machine Learning</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="exp-card">
+            <div class="exp-dot"></div>
+            <div class="exp-content">
+              <span class="exp-date">2020 – 2022</span>
+              <h4>Intermediate in Computer Science (ICS)</h4>
+              <p class="exp-company"><i class="fa-solid fa-school"></i> Punjab College, Sargodha</p>
+            </div>
+          </div>
+
+          <h3 class="exp-col-title" style="margin-top:36px"><i class="fa-solid fa-certificate"></i> Certifications</h3>
+
+          <div class="certs-grid">
+            <div class="cert-badge">
+              <i class="fa-brands fa-cisco"></i>
+              <span>Cisco x IBM – AI Fundamentals</span>
+            </div>
+            <div class="cert-badge">
+              <i class="fa-brands fa-google"></i>
+              <span>Google Cloud – Intro to Generative AI</span>
+            </div>
+            <div class="cert-badge">
+              <i class="fa-solid fa-award"></i>
+              <span>HEC Pakistan – Generative AI App Developer</span>
+            </div>
+            <div class="cert-badge">
+              <i class="fa-brands fa-microsoft"></i>
+              <span>Microsoft – Information Protection &amp; Data Lifecycle</span>
+            </div>
+            <div class="cert-badge accent-cert">
+              <i class="fa-brands fa-microsoft"></i>
+              <span>Microsoft Learn Student Ambassador</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Leadership -->
+      <div class="leadership-wrap">
+        <h3 class="exp-col-title center-title"><i class="fa-solid fa-users"></i> Leadership &amp; Activities</h3>
+        <div class="leadership-grid">
+          <div class="leadership-card">
+            <div class="leadership-icon"><i class="fa-brands fa-microsoft"></i></div>
+            <h4>Microsoft Learn Student Ambassador</h4>
+            <p>2025 – Present</p>
+            <small>Organized technical workshops and mentored students on Microsoft technologies.</small>
+          </div>
+          <div class="leadership-card">
+            <div class="leadership-icon"><i class="fa-solid fa-users-gear"></i></div>
+            <h4>Co-Lead, JobSkillShare Society</h4>
+            <p>2026</p>
+            <small>Coordinated technical events and student career initiatives.</small>
+          </div>
+          <div class="leadership-card">
+            <div class="leadership-icon"><i class="fa-solid fa-mosque"></i></div>
+            <h4>Founder, Online Quran Academy</h4>
+            <p>2025 – Present</p>
+            <small>Managing an online education platform and overseeing daily operations.</small>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========== TESTIMONIALS ========== -->
+  <section id="testimonials" class="section testimonials-section">
+    <div class="container">
+      <div class="section-tag center">TESTIMONIALS</div>
+      <h2 class="section-title center">What People <span class="accent">Say</span></h2>
+
+      <div class="testimonials-grid">
+
+        <div class="testimonial-card">
+          <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+          <p class="testimonial-text">
+            Ehtasham is a dedicated and technically sharp engineer. He picked up
+            DevOps concepts quickly and delivered clean, automated solutions during
+            his internship. A great team player with strong problem-solving skills.
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar av-1"><i class="fa-solid fa-user"></i></div>
+            <div class="author-info">
+              <h5>Team Lead</h5>
+              <span>SPS, NUST</span>
+            </div>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card featured-testimonial">
+          <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+          <p class="testimonial-text">
+            Working with Ehtasham was a great experience. His full-stack skills
+            and understanding of RESTful APIs were impressive. He always goes the
+            extra mile to deliver high-quality work on time.
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar av-2"><i class="fa-solid fa-user"></i></div>
+            <div class="author-info">
+              <h5>Senior Developer</h5>
+              <span>Kivro Solutions</span>
+            </div>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+          <p class="testimonial-text">
+            Ehtasham is one of our most proactive students. As a Lab Assistant
+            he maintained systems perfectly and helped peers with Linux and
+            programming — always professional and reliable.
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar av-3"><i class="fa-solid fa-user"></i></div>
+            <div class="author-info">
+              <h5>Faculty Member</h5>
+              <span>QAU, Islamabad</span>
+            </div>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Tech Stack Logos -->
+      <div class="brands-wrap">
+        <p class="brands-label">Tech Stack</p>
+        <div class="brands-logos">
+          <span class="brand-logo"><i class="fa-brands fa-docker"></i> Docker</span>
+          <span class="brand-logo"><i class="fa-brands fa-linux"></i> Linux</span>
+          <span class="brand-logo"><i class="fa-brands fa-aws"></i> AWS</span>
+          <span class="brand-logo"><i class="fa-brands fa-react"></i> React</span>
+          <span class="brand-logo"><i class="fa-brands fa-node-js"></i> Node.js</span>
+          <span class="brand-logo"><i class="fa-brands fa-git-alt"></i> Git</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== BLOG ========== -->
+  <section id="blog" class="section blog-section">
+    <div class="container">
+      <div class="section-header">
+        <div>
+          <div class="section-tag">LATEST POSTS</div>
+          <h2 class="section-title">From My <span class="accent">Blog</span></h2>
+        </div>
+        <a href="#" class="btn btn-outline">View All Posts <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+
+      <div class="blog-grid">
+
+        <div class="blog-card">
+          <div class="blog-img-wrap">
+            <div class="blog-img-placeholder b-color-1">
+              <i class="fa-brands fa-docker"></i>
+            </div>
+            <span class="blog-category">DevOps</span>
+          </div>
+          <div class="blog-content">
+            <div class="blog-meta">
+              <span><i class="fa-regular fa-calendar"></i> April 10, 2026</span>
+              <span><i class="fa-regular fa-comment"></i> 6 Comments</span>
+            </div>
+            <h4>Dockerizing a MERN App from Scratch: A Step-by-Step Guide</h4>
+            <p>How I containerized a full MERN application with Docker Compose, managing environment variables and multi-service networking.</p>
+            <a href="#" class="blog-read-more">Read More <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <div class="blog-card">
+          <div class="blog-img-wrap">
+            <div class="blog-img-placeholder b-color-2">
+              <i class="fa-solid fa-infinity"></i>
+            </div>
+            <span class="blog-category">CI/CD</span>
+          </div>
+          <div class="blog-content">
+            <div class="blog-meta">
+              <span><i class="fa-regular fa-calendar"></i> March 5, 2026</span>
+              <span><i class="fa-regular fa-comment"></i> 9 Comments</span>
+            </div>
+            <h4>Building a CI/CD Pipeline with GitHub Actions in 2026</h4>
+            <p>A practical walkthrough of setting up automated build, test, and deployment workflows using GitHub Actions for real projects.</p>
+            <a href="#" class="blog-read-more">Read More <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <div class="blog-card">
+          <div class="blog-img-wrap">
+            <div class="blog-img-placeholder b-color-3">
+              <i class="fa-brands fa-linux"></i>
+            </div>
+            <span class="blog-category">Linux</span>
+          </div>
+          <div class="blog-content">
+            <div class="blog-meta">
+              <span><i class="fa-regular fa-calendar"></i> January 22, 2026</span>
+              <span><i class="fa-regular fa-comment"></i> 14 Comments</span>
+            </div>
+            <h4>Building a Linux System Monitor with C++ and NCurses</h4>
+            <p>How I built SysWatch — a real-time terminal dashboard that reads CPU, memory, and process data from the /proc filesystem.</p>
+            <a href="#" class="blog-read-more">Read More <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT ========== -->
+  <section id="contact" class="section contact-section">
+    <div class="container contact-container">
+
+      <div class="contact-left">
+        <div class="section-tag">GET IN TOUCH</div>
+        <h2 class="section-title">Let's Work <span class="accent">Together</span></h2>
+        <p class="contact-desc">
+          Looking for a DevOps Engineer or MERN Stack Developer? I'm open to
+          internships, freelance projects, and full-time opportunities. Let's build
+          something great together.
+        </p>
+        <div class="contact-details">
+          <div class="contact-detail-item">
+            <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+            <div>
+              <span class="contact-detail-label">Email</span>
+              <span class="contact-detail-value">ahtashamkingking5@gmail.com</span>
+            </div>
+          </div>
+          <div class="contact-detail-item">
+            <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+            <div>
+              <span class="contact-detail-label">Phone</span>
+              <span class="contact-detail-value">+92-315-7695348</span>
+            </div>
+          </div>
+          <div class="contact-detail-item">
+            <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+            <div>
+              <span class="contact-detail-label">Location</span>
+              <span class="contact-detail-value">Islamabad, Pakistan</span>
+            </div>
+          </div>
+        </div>
+        <div class="contact-socials">
+          <a href="https://github.com/ehtasham-jutt69" target="_blank" rel="noopener" class="social-link" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/muhammad-ehtasham-is-here45" target="_blank" rel="noopener" class="social-link" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="mailto:ahtashamkingking5@gmail.com" class="social-link" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+      </div>
+
+      <div class="contact-right">
+        <form class="contact-form" id="contact-form">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" placeholder="John Doe" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Your Email</label>
+              <input type="email" id="email" name="email" placeholder="john@example.com" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="Project / Internship Inquiry" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell me about the opportunity..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary full-width">
+            Send Message <i class="fa-solid fa-paper-plane"></i>
+          </button>
+          <div class="form-success" id="form-success">
+            <i class="fa-solid fa-circle-check"></i> Message sent! I'll get back to you soon.
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-top">
+        <a href="#home" class="logo footer-logo"><span class="logo-script">Ehtasham</span></a>
+        <nav class="footer-nav">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#portfolio">Projects</a>
+          <a href="#experience">Experience</a>
+          <a href="#blog">Blog</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <div class="footer-socials">
+          <a href="https://github.com/ehtasham-jutt69" target="_blank" rel="noopener" class="social-link" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/muhammad-ehtasham-is-here45" target="_blank" rel="noopener" class="social-link" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="mailto:ahtashamkingking5@gmail.com" class="social-link" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 <span class="accent">Muhammad Ehtasham</span>. All Rights Reserved.</p>
+        <p>CS Undergraduate · DevOps Engineer · MERN Stack Developer</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+    <i class="fa-solid fa-chevron-up"></i>
+  </button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
