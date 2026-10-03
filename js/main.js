@@ -1,3 +1,6 @@
+/* eslint-env browser */
+/* global performance, IntersectionObserver */
+
 /* =============================================
    EHTASHAM PORTFOLIO – MAIN JAVASCRIPT
    ============================================= */
@@ -125,7 +128,7 @@ document.addEventListener('DOMContentLoaded', () => {
   function animateCounter(el) {
     const target    = parseInt(el.dataset.count, 10);
     const duration  = 2000;
-    const startTime = performance.now();
+    const startTime = (window.performance || performance).now();
 
     function easeOut(t) { return 1 - Math.pow(1 - t, 3); }
 
@@ -144,7 +147,8 @@ document.addEventListener('DOMContentLoaded', () => {
   /* ── COUNTER OBSERVER ───────────────────── */
   const statsGrid = document.querySelector('.stats-grid');
   if (statsGrid) {
-    const counterObserver = new IntersectionObserver((entries, obs) => {
+    const ObserverClass = window.IntersectionObserver || IntersectionObserver;
+    const counterObserver = new ObserverClass((entries, obs) => {
       entries.forEach(entry => {
         if (!entry.isIntersecting) return;
 
